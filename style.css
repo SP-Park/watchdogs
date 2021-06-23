@@ -178,6 +178,7 @@ p {
 .home__title,
 .home__description {
   color: var(--color-white);
+  font-size: 32px;
 }
 
 .home__contact {
@@ -483,14 +484,20 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark-grey);
 }
 
 .contact__title,
-.contact__email,
+.contact__email {
+  color: var(--color-white);
+  font-size: 32px
+}
+
 .contact__rights {
   color: var(--color-white);
+  font-size: 20px
 }
+
 
 .contact__title {
   margin: 32px 0;
@@ -516,7 +523,7 @@ p {
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-pink);
+  background-color: var(--color-blue);
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
