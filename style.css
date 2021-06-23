@@ -444,6 +444,11 @@ p {
 /* Testimonial */
 #testimonials {
   background-color: var(--color-light-white);
+  background: url('imgs/Cybersec_award_banner_denuvo_v1-scaled.jpg') center/cover no-repeat;
+  text-align: center;
+  height: 400px;
+  
+  
 }
 
 .testimonials {
@@ -488,20 +493,20 @@ p {
 /* Contact */
 #contact {
   background-color: var(--color-black);
-  height: 250px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .contact__title,
 .contact__email {
   color: var(--color-white);
-  font-size: 32px
+  font-size: 24px
 }
 
 .contact__rights {
   color: var(--color-white);
-  font-size: 20px
+  font-size: 14px
 }
 
 
@@ -606,6 +611,7 @@ p {
   .project {
     flex-grow: 1;
   }
+  
 
   .testimonial {
     flex-direction: column;
