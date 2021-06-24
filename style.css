@@ -629,6 +629,7 @@ p {
   }
 
   .testimonial__avatar {
+    padding-left: 10px;
     width: 120px;
     height: 120px;
   }
@@ -641,6 +642,7 @@ p {
 
   .testimonial__speech-bubble {
     order: 1;
+    padding-left: 10px;
   }
 
   .arrow-up {
