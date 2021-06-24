@@ -280,7 +280,7 @@ p {
 /* Skill */
 
 #skills {
-  background-color: var(--color-light-blue);
+  background-color: #f1f1f1;
 }
 
 .skillset {
@@ -476,14 +476,41 @@ p {
   background-color: var(--color-dark-white);
 }
 
+/* Video */
+#video {
+  background-color: #f1f1f1;
+}
+
+.video_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video_text{
+  margin-right: 80px;
+}
+
+.video_text p{
+  text-align: left;
+}
+
+.video_text h3{
+  font-size: 25px;
+}
+
+
 /* Testimonial */
 #testimonials {
-  background-color: var(--color-light-white);
   background: url('imgs/Cybersec_award_banner_denuvo_v1-scaled.jpg') center/cover no-repeat;
   text-align: center;
   align-items: center;
 }
 
+.h1_awards {
+  margin-top: 0px;
+  padding-top: 20px;
+}
 
 .testimonials {
   display: flex;
@@ -521,6 +548,7 @@ p {
 
 .testimonial__speech-bubble li {
   text-align: left;
+  margin-left: 10px;
 }
 
 .testimonial__speech-bubble a {
@@ -675,8 +703,26 @@ p {
   .project {
     flex-grow: 1;
   }
-  
 
+  .video_container{
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    align-items: center;
+  }
+  
+  .video_text{
+    padding-left: 10px;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 45.55%;
+  }
+
+  .video__img {
+    padding-left: 10px;
+    height: 300px;
+    width: 400px;
+  }
 
   .testimonials {
     flex-direction: column;
@@ -712,3 +758,5 @@ p {
     bottom: 16px;
   }
 }
+
+
