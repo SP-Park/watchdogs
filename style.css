@@ -410,8 +410,8 @@ p {
 }
 
 .work__projects a {
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
 }
 
 .work__projects.anim-out {
