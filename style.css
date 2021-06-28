@@ -118,6 +118,7 @@ p {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: white;
+  align-items: center;
 }
 
 .navbar__logo img {
